@@ -8,3 +8,7 @@ main: $(OBJ_FILES)
 
 obj/%.o: src/%.c
 	gcc $(CC_FLAGS) -c -o $@ $<
+
+clean:
+	rm main
+	rm -f obj/*.o
