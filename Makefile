@@ -5,7 +5,7 @@ LD_FLAGS  := -lm
 CC_FLAGS  := -Wall
 
 main: $(OBJ_FILES)
-	$(CC) $(LD_FLAGS) -o $@ $^
+	$(CC) -o $@ $^ $(LD_FLAGS)
 
 obj/%.o: src/%.c
 	$(CC) $(CC_FLAGS) -c -o $@ $<
