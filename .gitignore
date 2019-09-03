@@ -1,5 +1,6 @@
 # Compiled source #
 main.exe
+main
 
 # Intermediate files #
 obj/*
