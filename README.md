@@ -16,6 +16,6 @@ Great for set up a tiny C project and do quick tests.
 
 `cd dummyC_Project`
 
-* Use the command `make`, it will create an executable called HelloWorld
+* Use the command `make`, it will create an executable called main (or main.exe on Windows)
 
-* Run the programm using the command `./HelloWorld`
+* Using Linux, run the programm using the command `./main`
