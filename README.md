@@ -19,3 +19,19 @@ Great for set up a tiny C project and do quick tests.
 * Use the command `make`, it will create an executable called main (or main.exe on Windows)
 
 * Using Linux, run the programm using the command `./main`
+
+## Test the program
+
+In order to test the program, you must install `bats` (https://github.com/sstephenson/bats#installing-bats-from-source).
+
+Then install some bats helper:
+
+```
+mkdir ~/bats_helper && cd ~/bats_helper
+
+git clone https://github.com/ztombol/bats-support
+
+git clone https://github.com/ztombol/bats-assert
+```
+
+Then go to the `tests` directory and perform: `bats test.bats`
