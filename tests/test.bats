@@ -4,7 +4,7 @@ load $HOME/'bats_helper/bats-support/load.bash'
 load $HOME/'bats_helper/bats-assert/load.bash'
 
 @test "Build project" {
-  run make -C /tmp/dummyC_Project
+  run make -C ../
 
   assert_success
 }
